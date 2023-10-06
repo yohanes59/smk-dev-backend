@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Intro Web Server",
+    "dateExported": "2023-10-06T14:39:27.899Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4dff1245-dca4-485e-ac28-d4652fa9f9f8",
+            "colId": "a5273f3c-b48b-4918-b90d-c40df04b41a7",
+            "containerId": "",
+            "name": "Create Student",
+            "url": "http://localhost:8080/students",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-10-06T14:34:29.632Z",
+            "modified": "2023-10-06T14:35:10.368Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"anes\",\n  \"age\": 1,\n  \"grade\": \"c\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d9e58fdd-65cb-43e5-9e5d-d770ea7dad6f",
+            "colId": "a5273f3c-b48b-4918-b90d-c40df04b41a7",
+            "containerId": "",
+            "name": "Get All Students",
+            "url": "http://localhost:8080/students",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-10-06T14:34:55.107Z",
+            "modified": "2023-10-06T14:34:55.107Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "011115a6-467f-4888-aaa5-0f39af1b75ae",
+            "colId": "a5273f3c-b48b-4918-b90d-c40df04b41a7",
+            "containerId": "",
+            "name": "Get Student By Id",
+            "url": "http://localhost:8080/student/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-10-06T14:35:49.677Z",
+            "modified": "2023-10-06T14:35:49.677Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1d4e6aad-71f6-43be-809f-ec23c0b9df16",
+            "colId": "a5273f3c-b48b-4918-b90d-c40df04b41a7",
+            "containerId": "",
+            "name": "Update User By Id",
+            "url": "http://localhost:8080/students/2",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-10-06T14:37:38.456Z",
+            "modified": "2023-10-06T14:37:38.456Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"budi\",\n  \"age\": 1,\n  \"grade\": \"a\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "89b71853-adb1-48ea-9c8f-b703edca07b4",
+            "colId": "a5273f3c-b48b-4918-b90d-c40df04b41a7",
+            "containerId": "",
+            "name": "Delete Student By Id",
+            "url": "http://localhost:8080/student/2",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-10-06T14:39:12.433Z",
+            "modified": "2023-10-06T14:39:12.433Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
